@@ -1,0 +1,13 @@
+<ul class="list-inline text-center">
+  <h1>This template is built with <i class="fa fa-heart heart"></i> by</h1>
+  <% ["danielrpo1", "Ferdi0410"].each do |gh_username| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+      <h3><%= gh_username.capitalize %></h3>
+      <p>
+        <i class="fa fa-github"> </i>
+        <%= link_to gh_username, "http://github.com/#{gh_username}" %>
+      </p>
+    </li>
+  <% end %>
+</ul>

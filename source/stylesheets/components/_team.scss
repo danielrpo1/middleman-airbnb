@@ -1,0 +1,28 @@
+.img-circle {
+    border-radius: 50%;
+    width: 300px;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+    padding-top: 20px;
+
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 12.5px;
+}
+
+div {
+    display: block;
+}
+
+#about h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: rgba(0,0,0,0.7);
+}
